@@ -1,3 +1,12 @@
+.p2 {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.berryweather{
+  font-size: 5vw;
+  color: cornflowerblue;
+}
+
 .center {
     margin: 0;
     position: absolute;
@@ -33,12 +42,3 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-
-  .one
-{
-left: 33.33%; 
-}
-
-.two
-{  
-padding-left:66.66%;}
