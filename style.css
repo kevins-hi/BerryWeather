@@ -24,19 +24,19 @@ body {
   flex-direction: column;
   padding-left: 30vw;
   padding-right: 30vw;
-  margin-top: 3.8vw;
+  margin-top: 4.65vw;
 }
 .flex-item {
   background: khaki;
-  padding: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding: 0.3vw;
+  margin-top: 0.6vw;
+  margin-bottom: 0.6vw;
   text-align: center;
 }
 .flex-image {
   background:lightsteelblue;
-  padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding: 0.6vw;
+  margin-top: 0.6vw;
+  margin-bottom: 0.6vw;
   text-align: center;
 }
