@@ -8,6 +8,7 @@ function weatherBalloon(cityID) {
     .catch(function() {
     });
 }
+
 function drawWeather(d) {
     var celsius = Math.round(parseFloat(d.main.temp)-273.15);
     var fahrenheit = Math.round(((parseFloat(d.main.temp)-273.15)*1.8)+32);

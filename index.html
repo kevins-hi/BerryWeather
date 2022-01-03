@@ -3,27 +3,25 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
+    <script lang="text/javascript">
+        window.onload = function() { weatherBalloon(5391959) }
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BerryWeather</title>
+    <title>Berry Weather</title>
 </head>
 <body>
     <div class = "flex-container">
-        <div class = "berryweather flex-item">
+        <div class = "flex-item berryweather">
             Berry Weather
         </div>
-        <div id="temp" class="berryweather2 flex-item2"> </div>
-        <div id="location" class="berryweather2 flex-item2"> </div>
+        <div id="location" class="flex-item2 berryweather2"> </div>
+        <div id="temp" class="flex-item2 berryweather2"> </div>
         <div class = "flex-item3">
-            <img src="images/berry1.jpg" style = "width: 300px; height: 300px;" alt="test">
+            <img src="images/berry1.jpg" class = "berryimage">
         </div>
-        <div id="description" class="berryweather2 flex-item2"></div>
+        <div id="description" class="flex-item2 berryweather2"></div>
     </div>
-    <script lang="text/javascript">
-        window.onload = function() {
-            weatherBalloon(5391959)
-        }
-    </script>
 </body>
 </html>
