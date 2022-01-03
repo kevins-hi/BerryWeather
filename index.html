@@ -3,6 +3,8 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press Start 2P">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+
     <script src="index.js"></script>
     <script lang="text/javascript">
         window.onload = function() { weatherBalloon(5391959); }
@@ -11,9 +13,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Berry Weather</title>
+
 </head>
 <body>
-    <button type="button" class="button">Retro!</button>
+    <!-- <input type="checkbox" id="RETRO" name="RETRO" checked>
+        <label for="RETRO">RETRO</label> -->
+    <label><input class="nes-checkbox" type="checkbox"/>
+        <span>RETRO</span>
+    </label>
     <div class="flex-container">
         <div class="flex-item berryweather">
             Berry Weather

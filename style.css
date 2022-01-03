@@ -91,7 +91,7 @@ body {
   cursor: pointer;
 
   /* display: flex; */
-  
+
   background: rgb(245, 245, 245);
   border-left: 1.2vw solid rgb(250, 250, 250);
   border-right: 1vw solid rgb(250, 250, 250);
@@ -99,3 +99,4 @@ body {
   border-bottom: 0.6vw solid rgb(215, 215, 215);
 
 }
+
