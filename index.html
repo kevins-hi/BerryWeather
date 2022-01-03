@@ -3,8 +3,6 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press Start 2P">
-    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
-
     <script src="index.js"></script>
     <script lang="text/javascript">
         window.onload = function() { weatherBalloon(5391959); }
@@ -16,16 +14,15 @@
 
 </head>
 <body>
-    <!-- <input type="checkbox" id="RETRO" name="RETRO" checked>
-        <label for="RETRO">RETRO</label> -->
-    <label><input class="nes-checkbox" type="checkbox"/>
-        <span>RETRO</span>
-    </label>
-    <!-- <button type="button" class="button">Retro!</button> -->
     <div class="flex-container">
-        <div class="flex-item berryweather">
-            Berry Weather
+        <div class="flex-buttonbar">
+            <button type="button" class="flex-button">Retro!</button>
+            <!-- <input type="checkbox" id="RETRO" name="RETRO" checked>
+            <label for="RETRO">RETRO</label> -->
         </div>
+        <button class="flex-item berryweather">
+            Berry Weather
+        </button>
         <div class="flex-item berryweather2">
             <div id="location"> </div>
             <div id="temp"> </div>
