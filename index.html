@@ -9,23 +9,17 @@
     <title>BerryWeather</title>
 </head>
 <body>
-    <div class = "berryweather" style="font-family: Verdana, sans-serif;">
-        Berry Weather
+    <div class = "flex-container">
+        <div class = "berryweather flex-item">
+            Berry Weather
+        </div>
+        <div id="temp" class="berryweather2 flex-item2"> </div>
+        <div id="location" class="berryweather2 flex-item2"> </div>
+        <div class = "flex-item3">
+            <img src="images/berry1.jpg" style = "width: 300px; height: 300px;" alt="test">
+        </div>
+        <div id="description" class="berryweather2 flex-item2"></div>
     </div>
-    <div>
-        <div id="temp" style = "font-family: Verdana, sans-serif;" class="berryweather2"> </div>
-        <div id="location" style = "font-family: Verdana, sans-serif;" class="berryweather2"> </div>
-    </div>
-    <div>
-        <img src="images/berry1.jpg" alt="happy berry" width="300" height="300">
-        <div id="description" style = "font-family: Verdana, sans-serif;" class="berryweather2"></div>
-    </div>
-    
-    <!-- <div id="weather">
-        <div id="description"></div>
-        <h1 id="temp"></h1>
-        <div id="location"></div>
-    </div> -->
     <script lang="text/javascript">
         window.onload = function() {
             weatherBalloon(5391959)
