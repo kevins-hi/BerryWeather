@@ -3,7 +3,7 @@ body {
   /* background-image: url(images/bginvert.gif); */
   background-repeat: repeat;
   background-position: center;
-  background-size: 110vw;
+  background-size: cover;
 }
 
 .berryweather {
@@ -28,11 +28,13 @@ body {
 }
 
 .flex-container {
+  /* background: tomato; */
   display: flex;
   flex-direction: column;
-  padding-left: 29vw;
-  padding-right: 29vw;
-  margin-top: 5.5vw;
+  margin: -8px;
+  height: 100vh;
+  padding-left: 30vw;
+  padding-right: 30vw;
 }
 
 .flex-item {
@@ -89,14 +91,11 @@ body {
   text-decoration: none;
   font-size: 16px;
   cursor: pointer;
-
   /* display: flex; */
-
-  background: rgb(245, 245, 245);
+  /* background: rgb(245, 245, 245);
   border-left: 1.2vw solid rgb(250, 250, 250);
   border-right: 1vw solid rgb(250, 250, 250);
   border-top: 0.3vw solid rgb(225, 225, 225);
-  border-bottom: 0.6vw solid rgb(215, 215, 215);
-
+  border-bottom: 0.6vw solid rgb(215, 215, 215); */
 }
 
