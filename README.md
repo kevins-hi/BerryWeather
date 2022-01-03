@@ -1,4 +1,6 @@
-# BerryWeather
+# LofiBerryWeather
 
-Created by: kekpy and kevins-hi <br />
-Link: https://kekpy.github.io/BerryWeather
+Fork of: https://github.com/kekpy/BerryWeather
+
+Created by: kevins-hi <br />
+Link: https://kevins-hi.github.io/LofiBerryWeather
