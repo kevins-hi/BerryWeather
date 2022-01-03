@@ -1,23 +1,27 @@
 body {
-  background-image: url(images/loopfall.gif);
+  background-image: url(images/bg.gif);
   background-repeat: repeat;
   background-position: center;
   background-size: 110vw;
 }
+
 .berryweather {
   font-size: 4vw;
   font-family: 'Press Start 2P';
   color: cornflowerblue;
 }
+
 .berryweather2 {
   font-size: 2vw;
   font-family: 'Press Start 2P';
   color:darkblue;
 }
+
 .berryimage {
   width: 20vw;
   height: 20vw;
 }
+
 .flex-container {
   /* background: tomato; */
   display: flex;
@@ -26,6 +30,7 @@ body {
   padding-right: 29vw;
   margin-top: 3.5vw;
 }
+
 .flex-item {
   /* background: rgb(245, 245, 245);
   border-left: 1.2vw solid rgb(250, 250, 250);
@@ -60,6 +65,7 @@ body {
   margin-bottom: 0.6vw;
   text-align: center;
 }
+
 .flex-image {
   background:lightsteelblue;
   padding: 0.6vw;

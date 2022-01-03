@@ -1,12 +1,9 @@
 function weatherBalloon(cityID) {
     var key = 'a73533782e8c0c25b54a67e88ced663a';
     fetch('https://api.openweathermap.org/data/2.5/weather?id=' + cityID + '&appid=' + key)
-    .then(function(resp) {return resp.json()})
-    .then(function(data) {
-        drawWeather(data);
-    })
-    .catch(function() {
-    });
+        .then(function(resp) { return resp.json(); })
+        .then(function(data) { drawWeather(data); })
+        .catch(function() {});
 }
 
 function drawWeather(d) {
