@@ -25,5 +25,6 @@ const capitalize = (s) => {
 
 const playBGMusic = () => {
     var audio = new Audio('music/cloudnine.mp3');
+    audio.loop = true;
     audio.play();
 }
