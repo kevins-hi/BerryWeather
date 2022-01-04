@@ -23,8 +23,8 @@ const capitalize = (s) => {
     return words.join(' ');
 }
 
-const playBGMusic = () => {
-    var audio = new Audio('music/cloudnine.mp3');
-    audio.loop = true;
+const playSound = (sound, loop) => {
+    var audio = new Audio('sounds/' + sound + '.mp3');
+    audio.loop = loop;
     audio.play();
 }
