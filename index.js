@@ -1,5 +1,6 @@
 const weatherBalloon = (cityID) => {
-    var key = config.KEY;
+    // var key = config.KEY;
+    var key = '515f703ea93059030f11dcf032198993';
     fetch('https://api.openweathermap.org/data/2.5/weather?id=' + cityID + '&appid=' + key)
         .then((resp) => { return resp.json(); })
         .then((data) => { drawWeather(data); })
@@ -20,4 +21,9 @@ const capitalize = (s) => {
        words[i] = words[i].charAt(0).toUpperCase() + words[i].substring(1);
     }
     return words.join(' ');
+}
+
+const playBGMusic = () => {
+    var audio = new Audio('music/cloudnine.mp3');
+    audio.play();
 }
