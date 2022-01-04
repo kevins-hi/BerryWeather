@@ -7,7 +7,6 @@
     <script lang="text/javascript">
         window.onload = () => { 
             weatherBalloon(5391959); 
-            playSound("cloudnine", true);
         }
     </script>
     <meta charset="UTF-8">
@@ -17,14 +16,14 @@
 </head>
 <body>
     <div class="flex-container">
-        <button onclick="playSound('click', false);" class="flex-item berryweather">
+        <button onclick="playSound('click');" class="flex-item berryweather">
             Berry Weather
         </button>
-        <button onclick="playSound('click', false);" class="flex-item berryweather2">
+        <button onclick="playSound('click');" class="flex-item berryweather2">
             <div id="location"> </div>
             <div id="temp"> </div>
         </button>
-        <button onclick="playSound('click', false);" class="flex-item">
+        <button onclick="playSound('click');" class="flex-item">
             <img src="images/berryhappy.jpg" class="berryimage flex-image">
             <div id="description" class="berryweather2"></div>
         </button>

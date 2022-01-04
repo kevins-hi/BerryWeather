@@ -1,3 +1,5 @@
+var bgmStarted = false;
+
 const weatherBalloon = (cityID) => {
     // var key = config.KEY;
     var key = '515f703ea93059030f11dcf032198993';
@@ -23,8 +25,17 @@ const capitalize = (s) => {
     return words.join(' ');
 }
 
-const playSound = (sound, loop) => {
+const startBGM = () => {
+    var audio = new Audio('sounds/cloudnine.mp3');
+    audio.loop = true;
+    audio.play();
+}
+
+const playSound = (sound) => {
+    if (!bgmStarted) {
+        startBGM();
+        bgmStarted = true;
+    }
     var audio = new Audio('sounds/' + sound + '.mp3');
-    audio.loop = loop;
     audio.play();
 }
