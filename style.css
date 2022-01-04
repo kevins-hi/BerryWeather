@@ -44,6 +44,7 @@ body {
   margin-right: 30vw;
   margin-left: 30vw;
   text-align: center;
+  user-select: none;
 }
 
 .flex-item:active {
@@ -60,6 +61,7 @@ body {
   margin-right: 30vw;
   margin-left: 30vw;
   text-align: center;
+  user-select: none;
 }
 
 .flex-image {
